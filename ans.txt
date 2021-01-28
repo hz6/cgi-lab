@@ -1,0 +1,15 @@
+Question 1: How do you inspect all environment variables in Python?
+print the os.environ, cast the var as dictionary and access it
+
+Question 2: What environment variable contains the query parameter data?
+if we add localhost:8080?query=myquery
+it contains a "QUERY_STRING" key and "query=myquery" value
+
+Question 3: What environment variable contains information about the user’s browser?
+in section "HTTP_USER_AGENT", it contains the browser information
+
+Question 4: How does the POSTed data come to the CGI script?
+All data is allocated to FieldStorage() and cgi just retrives data from the storage again.
+
+Question 5: What is the HTTP header syntax to set a cookie from the server?
+we use Set-Cookie: key=value

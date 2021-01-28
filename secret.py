@@ -4,6 +4,7 @@ import cgi
 import cgitb
 cgitb.enable()
 
+
 class FollowingTheTAsInstructionsError(Exception):
     def __init__(self):
         Exception.__init__(self, (
@@ -12,8 +13,9 @@ class FollowingTheTAsInstructionsError(Exception):
         ))
 
 # Delete this line:
-raise FollowingTheTAsInstructionsError
+# raise FollowingTheTAsInstructionsError
+
 
 # Edit the following two lines:
-username = "<pick a username here>"
-password = "<pick a password here>"
+username = "anthony"
+password = "secret"
