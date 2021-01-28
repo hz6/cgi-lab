@@ -13,3 +13,12 @@ All data is allocated to FieldStorage() and cgi just retrives data from the stor
 
 Question 5: What is the HTTP header syntax to set a cookie from the server?
 we use Set-Cookie: key=value
+
+Question 6: What is the HTTP header syntax the browser uses to send the cookie back?
+"Cookie"
+
+Question 7: In your own words, what are cookies used for?
+To store info that we input, skip the process of login(saves time for us)
+
+Question 8: What is the link to your code on GitHub?
+https://github.com/hz6/cgi-lab
